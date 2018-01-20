@@ -1,0 +1,57 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <title>CPS530 Lab 5</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="index.css">
+
+    
+  
+</head>
+
+<body >
+   
+  <nav class="navbar navbar-inverse navbar-static-top ">
+  <div class="container">
+    
+      
+    
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <button type="button" 
+        class="navbar-toggle collapsed" 
+        data-toggle="collapse" 
+        data-target="#navstuff ">
+
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navstuff">
+
+    <ul class="nav navbar-nav">
+        <li><a href="#">Waail Saleh</a> </li>
+    </ul>
+ </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="content container">
+    <h3 id="test"> Add A Post</h3>
+    <form id="post" action="https://jsonplaceholder.typicode.com/posts">
+        <input type="text" id="title" placeholder="Title">
+        <br>
+        <textarea id="body"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+</div >
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="ajax.js"></script>
+</body>

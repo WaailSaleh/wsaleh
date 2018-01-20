@@ -1,0 +1,5 @@
+{
+    "title": "Introduction to Software Engineering",
+    "description": "This course introduces the study of Object-Oriented software engineering. Topics include software project management, requirements gathering, requirements analysis, modeling, design, implementation and testing. UML diagrams and design patterns are also discussed. A major portion of the course is a team project, taking a system from the initial requirements to the final implementation. (2 hr Lab every other week).",
+    "prereq": "CPS 311 or CPS 209"
+}

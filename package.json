@@ -1,0 +1,16 @@
+{
+  "name": "wsaleh",
+  "version": "0.0.1",
+  "description": "A Small Portfolio for a Ryerson Student Who is Reaaaaallly cool",
+  "main": "search.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Waail Saleh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  }
+}

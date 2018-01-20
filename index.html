@@ -1,0 +1,92 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+    <title>CPS530 Lab 5</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="TopNav" style="background-color:#333 " id="navthing">
+        <div class="container-fluid">
+            <div class="naviBar" id="navstuff">
+                <img src="profile.jpg" class=" profile navbar-collapse navbar-right collapse">
+                <a href="#" class="active">Waail Saleh</a>
+                <a href="ajax.html">Ajax </a>
+                <a href="ajaxcourse.html">ajaxcourse</a>
+                <a href="">
+                    <input type="text" class="form-control" style=" max-width: 200px" id="Search" />
+                </a>
+                <a style="font-size:25px;" class="icon" onclick="navmenu()">&#9776;</a>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid" style="padding-top: 50px;">
+        <div class="row " id="content">
+            <div class="col-sm-2 projects">
+                <h1 class="title" onclick="showProjects()"> Projects </h1>
+                <div id="Links">
+                    <a href="http://530cpswaail.bitballoon.com">
+                        <p> lab 1 </p>
+                    </a>
+                    <a href="http://530waailsaleh2.bitballoon.com">
+                        <p> lab 2 </p>
+                    </a>
+                    <a href="http://lab3for530.bitballoon.com">
+                        <p> lab 3 </p>
+                    </a>
+                    <a href="lab5p1.php">
+                        <p> lab 5 </p>
+                    </a>
+                    <br>
+                    <a href="https://murmuring-thicket-87757.herokuapp.com/">
+                        <p> Term Project</p>
+                    </a>
+                </div>
+                <h1 class="title" onclick="showCourses()"> Courses</h1>
+                <div id="courses">
+                    <p class="course" onClick="getCourseInfo()">CMN 300</p>
+                    <p class="course" onClick="getCourseInfo()">CPS 530</p>
+                    <p class="course" onClick="getCourseInfo()">CPS 613</p>
+                    <p class="course" onClick="getCourseInfo()">MTH 110</p>
+                    <p class="course" onClick="getCourseInfo()">CPS 305</p>
+                </div>
+            </div>
+        
+            <div class="col-sm-6 ">
+                <h3 class=" title " id="repotitle" onclick="showRepo()"> My Repositories</h3>
+                <a href="https://github.com/WaailSaleh/NewsReader">
+                    <div id="NewsReader" class="repo well unfinished">
+                        <h1> NewsReader</h1>
+                        <h4>Access Reddit API and creates an interface for reading Posts from Reddit.com/r/News</h4>
+                    </div>
+                </a>
+                <a href="https://github.com/WaailSaleh/NoteApp">
+                    <div id="NoteApp" class="repo well buggy">
+                        <h1> NoteApp</h1>
+                        <h4>Loads and saves text Files on external or internal Storage</h4>
+                    </div>
+                </a>
+                <a href="https://github.com/WaailSaleh/Simple-Calculator">
+                    <div id="Calculator" class="repo well buggy">
+                        <h1> Calculator</h1>
+                        <h4>A simple Calculator Application</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 ">
+                <h3 class="title coursetitle">...
+                    </h3>
+                <h5 class="prereqs">  ///
+            </h5>
+            <h4 class="courseDescription"> ???</h4>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>

@@ -1,0 +1,139 @@
+body {
+
+    background-repeat: i;
+    background-color: azure;
+    background-size: 100%;
+}
+.title {
+    font-family: 'VT323' , monospace;
+    font-size: 72px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: verdana, arial, helvetica;
+    font-size: 11pt;
+    color: black;
+}
+
+.repo {
+    background-color: inherit;
+    border-color: darkred;
+}
+div{
+    overflow: hidden;
+}
+h1 {
+    text-shadow: 1px 1px black;
+}
+
+.unfinished h1 {
+    color: red;
+}
+
+.buggy h1 {
+    color: yellow;
+}
+
+.finished h1 {
+    color: greenyellow;
+}
+
+
+
+#course {
+
+    background-color: inherit;
+    text-align: center;
+    display: block;
+}
+
+.projects {
+    text-align: center;
+    padding-left: 2%
+}
+
+a:visited {
+    color: green;
+}
+
+
+
+
+/* mouse over link */
+
+a:hover {
+    color: black;
+}
+
+
+.naviBar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.naviBar a {
+    float: left;
+    display: block;
+    color: #999;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.icon {
+    display: hidden;
+    top: 0px;
+    right: 0px;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
+
+@media screen and (min-width: 801px) {
+    .naviBar a.icon {
+
+        display: none;
+    }
+} 
+
+@media screen and (max-width: 800px) {
+    .naviBar a:not(:first-child) {
+        display: none;
+    }
+    .naviBar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .naviBar .responsive {
+        position: relative;
+    }
+   .responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .naviBar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.profile {
+    border-radius: 50%;
+    width: 75px;
+    height: auto;
+}
